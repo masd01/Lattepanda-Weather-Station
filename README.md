@@ -12,9 +12,8 @@ SCL-SCL,
 GND-GND.
 
 1. very simple connection of oled ssd1306 to onboard arduino.
-2. upload oledClockWeather.ino to onboard arduino.
-3. run oledClockWeather.py
-
-be sure to have installed all necessary libraries as they are mentioned-imported in the first lines on both files.
+2. be sure to have installed all necessary libraries as they are mentioned(included-imported) in the first lines of both .ino and .py files.
+3. upload oledClockWeather.ino to onboard arduino.
+4. run oledClockWeather.py
 
 https://github.com/user-attachments/assets/5638d09a-2a23-45cf-af00-7ed45d74be42
