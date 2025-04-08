@@ -6,14 +6,14 @@ import serial
 import time
 import socket
 
-# Σύνδεση με το Arduino
-arduino_port = "COM5"  # Άλλαξε το COM αν χρειάζεται
+# connect with Arduino
+arduino_port = "COM5"  # change COM if needed 
 baud_rate = 9600
 ser = serial.Serial(arduino_port, baud_rate, timeout=1)
-time.sleep(2)  # Περιμένουμε να σταθεροποιηθεί η σύνδεση
+time.sleep(2)
 
-hostname = socket.gethostname() # Βρίσκουμε το hostname του υπολογιστή
-my_ip = socket.gethostbyname(hostname) # Παίρνουμε την IP διεύθυνση
+hostname = socket.gethostname()
+my_ip = socket.gethostbyname(hostname)
 print("IP:", my_ip)
 
 def get_weather_emoji(description):
@@ -34,7 +34,7 @@ def get_weather_emoji(description):
 
 async def get_weather():
     async with python_weather.Client(unit=python_weather.METRIC) as client:
-        weather = await client.get('Athens, Greece')
+        weather = await client.get('Athens, Greece') # change to your city 
         emoji = get_weather_emoji(weather.description)
         return f"{emoji} {weather.temperature}'C, {weather.humidity}% Hum, {weather.wind_speed}km/h {weather.wind_direction}" #, IP:{my_ip}"
 
