@@ -8,7 +8,7 @@ According to Lattepanda pinout and ssd1306,
 
 SDA-SDA, 
 SCL-SCL, 
-5V-5V, 
+5V-VCC, 
 GND-GND.
 
 1. very simple connection of oled ssd1306 to onboard arduino.
