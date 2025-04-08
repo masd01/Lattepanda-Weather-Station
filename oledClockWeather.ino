@@ -9,7 +9,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 String receivedData = "";  
 String scrollText = "";
-int scrollPos = 128; // Αρχική θέση εκτός οθόνης
+int scrollPos = 128; // Αρχική θέση εκτός οθόνης 
 
 void setup() {
     Serial.begin(9600);
