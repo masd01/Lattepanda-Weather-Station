@@ -15,3 +15,5 @@ GND-GND.
 3. run oledClockWeather.py
 
 be sure to have installed all necessary libraries as they are mentioned-imported in the first lines on both files.
+
+https://github.com/user-attachments/assets/5638d09a-2a23-45cf-af00-7ed45d74be42
