@@ -1,4 +1,4 @@
-# Lattepanda-Weather-Station-
+# Lattepanda-Weather-Station
 Lattepanda oled ssd1306 clock, date, weather info 
 
 According to Lattepanda pinout and ssd1306, 
