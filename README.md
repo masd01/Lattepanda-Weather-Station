@@ -16,4 +16,8 @@ GND-GND.
 3. upload oledClockWeather.ino to onboard arduino.
 4. run oledClockWeather.py.
 
-https://github.com/user-attachments/assets/5638d09a-2a23-45cf-af00-7ed45d74be42
+
+
+https://github.com/user-attachments/assets/afd36a82-b5a6-47c3-bf23-f065a2c3b000
+
+
