@@ -21,3 +21,8 @@ GND-GND.
 https://github.com/user-attachments/assets/afd36a82-b5a6-47c3-bf23-f065a2c3b000
 
 
+Steady version:
+
+repeat steps using steadyWeather.ino and steadyWeather.py
+
+![IMG_20250415_230833](https://github.com/user-attachments/assets/44c158e0-3c8d-4408-ad5e-7607069c397d)
