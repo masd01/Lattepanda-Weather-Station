@@ -21,7 +21,6 @@ GND-GND.
 https://github.com/user-attachments/assets/afd36a82-b5a6-47c3-bf23-f065a2c3b000
 
 
-
 STEADY VERSION:
 
 repeat steps using steadyWeather.ino and steadyWeather.py
